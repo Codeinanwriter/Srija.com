@@ -99,3 +99,25 @@ a{
 .testimonial{
   margin: 2.5%;
 }
+#Gallery{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#Gallery img{
+  width: 400px;
+  height: 300px;
+  border: 2px solid #ff3d0036;
+  border-radius: 13px;
+  box-shadow: 4px 7px 7px 0px #00000042
+  cursor: pointer;
+  margin: 10px;
+  transition: 400ms;
+}
+#Gallery img:hover{
+  
+  transform: scale(1.03);
+  height: 40%;
+  width: 30%;
+}
