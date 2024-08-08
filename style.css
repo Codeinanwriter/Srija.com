@@ -25,13 +25,18 @@ html,body{
   color: red;
   height:10%;
 }
-
+.news marquee{
+   font-size: 60px;
+ }
+   
 .logo{
   height: 60px;
+  width:80px;
 }
 nav{
   float:right;
   padding: 25px 0px;
+  display:flex;
 } 
 nav a{
   color:black;
@@ -76,6 +81,9 @@ a{
   padding: 8px 12px;
   margin-right: 10px;
 }
+.Event marquee{
+   height: 340px;
+ }
 
 .about-us div{
   width: 45%;
